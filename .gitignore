@@ -8,3 +8,4 @@ __pycache__/
 # selected feature list, scaler, final column list) ARE kept -- they're tiny and useful to review.
 data/raw/
 data/*.csv
+!data/04_selected_features.csv
