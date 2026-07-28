@@ -6,6 +6,12 @@ records. Built as a teaching project -- **every calculation is shown and reasone
 is assumed** -- broken into 8 small, independently-runnable scripts so each step can be read and
 understood on its own.
 
+**A companion project,
+[`logistic_regression_102`](https://github.com/Abhi11393/logistic_regression_102), rebuilds this
+exact same problem using the industry-standard credit-scoring toolkit instead (WOE/IV/PDO
+scorecard scaling) -- worth reading alongside this one to see where and why the two approaches
+diverge.**
+
 ## The data
 
 **Not included in this repo** (see `.gitignore`) -- the source `.xlsx` files are excluded because
