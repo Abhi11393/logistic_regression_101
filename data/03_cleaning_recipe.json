@@ -1,0 +1,33 @@
+{
+  "sentinel_value": -99999,
+  "columns_dropped": [
+    "CC_utilization",
+    "PL_utilization",
+    "time_since_first_deliquency",
+    "time_since_recent_deliquency",
+    "max_delinquency_level"
+  ],
+  "impute_medians": {
+    "max_unsec_exposure_inPct": 1.82,
+    "max_deliq_6mts": 0.0,
+    "max_deliq_12mts": 0.0,
+    "time_since_recent_enq": 75.0,
+    "CC_enq_L6m": 0.0,
+    "CC_enq_L12m": 0.0,
+    "PL_enq": 0.0,
+    "PL_enq_L6m": 0.0,
+    "PL_enq_L12m": 0.0,
+    "CC_enq": 0.0,
+    "enq_L12m": 2.0,
+    "enq_L6m": 1.0,
+    "enq_L3m": 1.0,
+    "tot_enq": 3.0,
+    "time_since_recent_payment": 74.0,
+    "pct_currentBal_all_TL": 0.618,
+    "Age_Oldest_TL": 33.0,
+    "Age_Newest_TL": 8.0
+  },
+  "income_low_cutoff": 1000,
+  "income_median": 23500.0,
+  "income_cap_p99": 78000.0
+}

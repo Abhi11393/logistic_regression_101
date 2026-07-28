@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Raw source data (licensing for public redistribution of this Kaggle dataset is unclear) and the
+# bulky intermediate CSVs each script produces -- regenerate these by running the scripts against
+# your own copy of the data (see README.md). Small config/metadata artifacts (the cleaning recipe,
+# selected feature list, scaler, final column list) ARE kept -- they're tiny and useful to review.
+data/raw/
+data/*.csv
